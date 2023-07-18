@@ -171,8 +171,8 @@ background-clip: text;
             flex-direction: column-reverse;
       }
       .banner-content {
-            padding: 69px 105px;
-            width: 50%;
+            padding: 69px 75px;
+            width: 60%;
       }
       .bannre-image {
             width: 80%;
