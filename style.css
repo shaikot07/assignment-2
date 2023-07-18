@@ -7,7 +7,69 @@ body{
       font-family: 'Open Sans', sans-serif;
       font-family: 'Work Sans', sans-serif;
 }
-
-h2{
-      color: aquamarine;
+/* sheared style css start  */
+.py-color{
+      color: #FF42A5;
 }
+/* sheared style css End  */
+
+/* nav style css start  */
+header{
+      background: #FFF;
+      box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 70%;
+      margin: 0 auto;
+      padding: 15px;
+      
+}
+.log{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+.log img{
+      width: 27%;
+}
+.log h3{
+      font-size: 27px;
+}
+.nav-menu-1{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+}
+.nav-menu-1 ul{
+      list-style: none;
+      display: flex;
+      
+}
+.nav-menu-1 ul li{
+      margin-left: 10px;
+      font-size: 14px;
+      font-weight: 600;
+}
+.nav-manu-2{
+     
+      margin-left: 10px;
+      padding: 5px;
+      border-radius: 8px;
+      background: rgba(11, 2, 35, 0.10);
+}
+.nav-manu-2 ul{
+      list-style: none;
+      display: flex; 
+}
+.nav-manu-2 ul li{
+      margin-left: 10px;
+     font-size: 14px;
+     font-weight: 600;
+}
+.youtub{
+      color: red;
+}
+/* nav style css End  */
