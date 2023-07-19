@@ -294,9 +294,9 @@ main{
       margin: 50px 0;
 }
 .play-instant-content{
-      width: 40%;
-      padding-right:  120px;
-      padding-left:150px ;
+      width: 50%;
+      padding-right: 146px;
+      padding-left: 4px;
       text-align: right;
 }
 .play-instant-content h3{
