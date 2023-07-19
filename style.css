@@ -194,7 +194,7 @@ background-clip: text;
 /* main section style css start  */
 main{
       max-width: 1013px;
-      margin: auto;
+      margin: 0 auto;
       border: 1px solid darkred;
 }
 /* Online Games Funny Videos section pore korbo start  */
@@ -256,7 +256,9 @@ main{
 /* play instantly section style css end */
 /* more games section style css start  */
 .mor-game{
-      margin: 60px 0;
+      
+      background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+      padding: 100px 20px;
 }
 .more-games-container{
       display: flex;  
@@ -285,7 +287,74 @@ main{
 }
 /* more games section style css end  */
 
-/* main section style css start  */
+/* main section style css End  */
+/* footer section css start  */
+footer{
+      background-color: #0B0223;
+      padding: 70px 100px;
+}
+.footer-inner{
+      width: 50%;
+      margin: 0 auto;
+      
+}
+.footer-logo{
+      display: flex;
+      gap: 10px;
+      align-items: center;
+     justify-content: center;
+}
+.footer-logo img{
+      width: 9%;
+}
+.footer-logo h3{
+      color: #FFF;
+      font-size: 30px;
+}
+.footer-list > ul{
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      list-style: none;
+      margin: 30px 0;
+      
+}
+.footer-list ul li{
+      color: #FFF;
+      font-size: 15px;
+}
+.footer-icon{
+      display: flex;
+      justify-content: center;
+      gap: 27px;
+      margin: 40px 0;
+}
+.footer-icon > li{
+      color: #FFF;
+      list-style: none;
+     
+}
+.icon{
+      font-size: 24px;
+}
+.footer-condition{
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      list-style: none;
+      margin: 25px 0;
+}
+.footer-condition{
+      color:rgba(255, 255, 255, 0.60);
+      list-style: none;
+      font-size: 12px;
+}
+.footer-p p{
+      color: rgba(255, 255, 255, 0.60);
+      text-align: center;
+      font-size: 10px;
+}
+/* footer section css end  */
 
 
 
@@ -299,7 +368,7 @@ main{
 /* responsive qureie start*/
 /* mobile  */
 @media screen and (max-width: 576px) {
-      nav,.log,.nav-menu-1,.we-are-gamer,.play-instant{
+      nav,.log,.nav-menu-1,.we-are-gamer,.play-instant, .footer-logo{
             flex-direction: column;
       }
       .nav-manu-2{
@@ -366,6 +435,32 @@ main{
       }
       .image-size{
             width: 14px;
+      }
+      .footer-list > ul{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+      }
+      footer {
+            padding: 71px 0px;
+      }
+      .footer-logo img {
+            width: 18%;
+        }
+      .footer-inner {
+            width: 80%;
+      }
+      .footer-icon {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            text-align: center;
+      }
+      .footer-condition{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            text-align: center;
+            gap: 20px;
       }
 
 }
